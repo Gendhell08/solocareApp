@@ -1,0 +1,686 @@
+
+.splashscreen{
+    --ion-background-color: #073173;
+}
+
+.landingpage{
+    --ion-background-color: white;
+
+}
+
+.login-page{
+    --ion-background-color: white;
+}
+
+.logo-image {
+    display: block;
+    margin: auto; 
+    margin-top: 75%; 
+    max-width: 270px; 
+    height: auto; 
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.landing-logo{
+    display: block;
+    margin: auto;
+    margin-top: 170px;
+    width: 100%;
+    height: 200px;
+    max-width: 270px;
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.login-button, 
+.login2-button{
+    border-radius: 20px;
+    margin-top: 70px;
+    --ion-color-base: #073173;
+}
+
+.register-button, 
+.register2-button{
+    margin-top: 20px;
+    font-size: 20px;
+    --ion-color-base: black;
+}
+
+.register2-button{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-top: 0px;
+    text-transform: none;
+    font-size: 18px;
+    width: 270px;
+    height: 65px;
+}
+
+.text-text{
+    text-align: justify;
+    color: gray;
+}
+
+.box-box,
+.classification-card{
+    box-shadow: none;
+    border: none;
+    padding: 0%;
+    width: 270px;
+    margin-left: 42px;
+}
+
+.classification-card{
+    width: 280px;
+    margin-top: 25px;
+}
+
+.box-box1{
+    border: 1px solid #011534;
+    border-radius: 5px;
+    padding: 0%;
+    width: 250px;
+    margin-left: 37px;
+    height: 45px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.text-text1{
+    text-align: justify;
+    color: #011534;
+    font-size: 16px;
+}
+
+.alert-icon{
+    color: #011534;
+    width: 27px;
+    height: 27px;
+}
+
+.asterisk{
+    color: red;
+}
+
+.login-button, 
+.register-button{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-transform: none;
+    font-size: 18px;
+    max-width: 270px;
+    height: 65px;
+}
+
+.login-button{
+    margin-top: 60px;
+}
+
+.register-button{
+    margin-top: 20px;
+}
+
+.login2-button{
+    margin-top: 30px;
+    margin: auto;   
+    text-transform: none;
+    font-size: 18px;
+    width: 270px;
+    height: 65px;
+}
+
+.getotp-button,  
+.next-button{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-transform: none;
+    font-size: 18px;
+    width: 270px;
+    height: 65px;
+    --ion-color-base: #073173;
+    margin-top: 20px;
+}
+
+.next1-button{
+    font-size: 18px;
+    width: 279px;
+    height: 65px;
+    --ion-color-base: #073173;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.next2-button, 
+.next3-button,
+.next4-button{
+    font-size: 18px;
+    width: 279px;
+    height: 65px;
+    --ion-color-base: #073173;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.next4-button{
+    width: 280px;
+    margin-left: 27px;
+}
+
+.getotp-button{
+    width: 295px;
+}
+
+.application-status, 
+.forgot-password{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #011534;
+}
+
+.forgot-password{
+    margin-left: 95px;
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.notAmember{
+    margin: auto;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 100px;
+    color: gray;
+}
+
+h1{
+    margin: auto;
+    color: #011534;
+    font-weight: bolder;
+    font-size: 42px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.idnumber-form, 
+.password-form{
+    margin: auto;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #011534;
+    width: 300px;
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rememberme-checkbox, 
+.rememberme1-checkbox,
+.fam-rememberme1-checkbox{
+    margin: auto;
+    margin-left: 20px;
+}
+
+.rememberme1-checkbox,
+.fam-rememberme1-checkbox{
+    margin-top: 6px;
+    color: #011534;
+}
+
+.remember-label{
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+.middle-label,
+.fam-middle-label{
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.middle-name-text,
+.fam-middle-name-text{
+    color: #011534;
+}
+
+.divider {
+    margin: auto;
+    height: 1px;
+    width: 320px;
+    background-color: black;
+    margin-top: 2px; 
+    margin-bottom: 16px;
+}
+
+.contact-number{
+    color: #011534;
+    font-size: 18px;
+    border: 1px solid #011534;
+    border-radius: 10px;
+    width: 295px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 80px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.contact-form,
+.emergencyContact-form,
+.person-form{
+    color: #011534;
+    font-size: 18px;
+    border: 1px solid #011534;
+    font-weight: bold;
+    margin: auto;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 2px;
+    max-width: 279px;
+    margin-left: 34px;
+    border-radius: 5px;
+}
+
+.emergencyContact-form,
+.person-form{
+    margin-left: 45px;
+}
+
+.countryCode {
+    margin-top: -3px;
+    font-size: 18px;
+    color: #011534;
+    font-weight:bolder ;
+    margin-left: 15px;
+    margin-right: -5px;
+  }
+
+.countryCode1 {
+    margin-top: -3px;
+    font-size: 18px;
+    color: #011534;
+    font-weight:bolder ;
+    margin-left: 12px;
+    margin-right: -5px;
+  }
+
+
+  .input-1, 
+  .input-2, 
+  .input-3, 
+  .input-4{
+    width: 60px;
+    height: 80px;
+    border: 2px solid #011534;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .input-1{
+    margin-left: 35px;
+  }
+
+
+  .input-2{
+    margin-left: 45px;
+  }
+  .input-3{
+    margin-left: 55px;
+  }
+
+  .input-4{
+    margin-left: 65px;
+  }
+
+
+  .notes{
+    margin-top: 20px;
+    margin: auto;
+    font-size: 14px;
+    color: #011534;
+  }
+
+  .message-otp{
+    margin: auto;
+    margin-top: 2px;
+    
+  }
+
+  .resend, 
+  .change-number{
+    text-decoration: underline;
+    color: #011534;
+  }
+
+  .personal-info, .fam-info{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #011534;
+  }
+
+
+  .sub-text{
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: -10px;
+    color: #011534;
+  }
+
+.surname-form, 
+.name-form, 
+.middle-form, 
+.hea-form,
+.occupation-form,
+.mi-form,
+.presadd-form,
+.soho-form,
+.philhealth-form,
+.fam-surname-form,
+.fam-name-form,
+.fam-middle-form,
+.fam-relationship-form,
+.fam-status-form,
+.fam-hea-form,
+.fam-school-form{
+    margin-top: -5px;
+    max-width: 279px;
+    margin-left: 30px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+}
+
+.fam-birthday-form,
+.birthday-form{
+    margin-top: -8px;
+    width: 200px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+    margin-left: -75px;
+    height: 57px;
+}
+
+.fam-hea-form,
+.fam-school-form{
+    margin-left: 34px;
+}
+.hea-form, 
+.occupation-form, 
+.mi-form,
+.philhealth-form,
+.fam-hea-form,
+.fam-school-form{
+    margin-top: 2px;
+}
+
+
+.pob-form{
+    margin-top: -1px;
+    max-width: 279px;
+    margin-left: 34px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+}
+
+.name-form,
+.fam-name-form{
+    width: 200px;
+}
+
+.fam-age-form,
+.age-form{
+    margin-top: -5px;
+    margin-left: 30px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+    width: 70px;
+}
+
+.mi-form{
+    width: 279px;
+}
+
+.occupation-form, 
+.mi-form,
+.presadd-form,
+.soho-form{
+    width: 279px;
+    margin-top: 1px;
+}
+
+.suffix-form,
+.fam-suffix-form{
+    width: 75px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+    margin-top: -10px;
+    height: 58px;
+    margin-left: -10px;
+}
+
+.surname-text, 
+.name-text, 
+.middle-text, 
+.pob-text, 
+.sex-text, 
+.contact-text, 
+.hea-text,
+.occupation-text,
+.mi-text,
+.presadd-text,
+.soho-text,
+.fourps-text,
+.philhealth-text,
+.fam-surname-text,
+.fam-name-text,
+.fam-middle-text,
+.fam-relationship-text,
+.fam-status-text,
+.fam-hea-text,
+.fam-school-text,
+.fam-age-text,
+.age-text,
+.emergencyContact-text,
+.person-text{
+    color: #011534;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.fam-birthday-text,
+.birthday-text{
+    color: #011534;
+    font-size: 16px;
+    margin-left: -65px;
+    margin-top: -22px;
+}
+
+.person-text{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.emergencyContact-text{
+    margin-top: 15px;
+}
+
+.person-text,
+.emergencyContact-text{
+    margin-left: 50px;
+}
+
+.suffix-text,
+.fam-suffix-text{
+    color: #011534;
+    font-size: 16px;
+    margin-top: -25px;
+}
+
+.name-text, 
+.middle-text, 
+.pob-text, 
+.sex-text,
+.contact-text, 
+.hea-text, 
+.occupation-text,
+.mi-text,
+.presadd-text,
+.soho-text,
+.fourps-text,
+.philhealth-text,
+.fam-name-text,
+.fam-middle-text,
+.fam-status-text,
+.fam-hea-text,
+.fam-school-text,
+.fam-age-text{
+    margin-top: 15px;
+}
+
+.age-text{
+    margin-top: -5px;
+}
+
+.scroll-content {
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .placeholders{
+    margin-left: 100px;
+  }
+
+.gender-button,
+.yesno-button{
+    border: 1px solid #011534;
+    color: #011534;
+    --indicator-color: white;
+    font-size: 16px;
+}
+
+.gender-container, 
+.female-container,
+.yes-container,
+.no-container{
+    margin-top: -5px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+    padding: 0%;
+    height: 50px;
+}
+
+.gender-container{
+    margin-left: 29px;
+    width: 135px;
+}
+
+.yes-container{
+    width: 135px;
+    margin-left: 25px;
+}
+
+.no-container{
+    width: 135px;
+    margin-left: -5px;
+}
+
+.female-container{
+    margin-left: -5px;
+    width: 140px;
+}
+
+ion-radio {
+    --border-radius: 4px;
+    --inner-border-radius: 4px;
+  
+    --color: #ddd;
+    --color-checked: #011534;
+  }
+  
+  ion-radio.ios::part(container) {
+    width: 20px;
+    height: 20px;
+  
+    border: 2px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .radio-checked.ios::part(container) {
+    border-color: #011534;
+  }
+
+  .fam-card{
+    width: 280px;
+    height: 170px;
+    margin-left: 40px;
+    border: 1px solid #011534;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+
+  .add-icon{
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: auto; 
+    color: #011534;
+    margin-top: 50px;
+  }
+
+  .name-list,
+  .rs-list,
+  .age-list,
+  .dob-list,
+  .status-list,
+  .educ-list,
+  .school-list{
+    color: #011534;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .classification{
+    color: #011534;
+    font-size: 16px;
+    text-align: justify;
+  }
